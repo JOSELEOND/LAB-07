@@ -1,13 +1,16 @@
 import './App.css'
-import { Button } from './components/Button'
+import { Buttonre } from './components/RandonComponent';
 
 
 function App() {
-  const buttonText = " haga click";
+  
+  const buttonText = "Count :";
+  const resetText = "reset";
   return (
     <>
-      <h1>Alerta con numeros aleatorios</h1>
-      <Button text={buttonText}/>
+      <h1>Resetear los numeros</h1>
+      <Buttonre text={buttonText} text1={resetText}/>
+      
     </>
   )
 }
