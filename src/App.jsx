@@ -3,11 +3,11 @@ import { Button } from './components/Button'
 
 
 function App() {
- 
+  const buttonText = " haga click";
   return (
     <>
-      <h1>Incremento de 5 en 5</h1>
-      <Button/>
+      <h1>Alerta con numeros aleatorios</h1>
+      <Button text={buttonText}/>
     </>
   )
 }
