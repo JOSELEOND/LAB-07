@@ -1,15 +1,13 @@
 import './App.css'
 import { Button } from './components/Button'
-import { List } from './components/List'
-import { WapperList } from './components/WrapperList'
+
 
 function App() {
  
   return (
     <>
-      <WapperList>
-        <List/>
-      </WapperList>
+      <h1>Incremento de 5 en 5</h1>
+      <Button/>
     </>
   )
 }
