@@ -1,16 +1,13 @@
 import './App.css'
-import { Buttonre } from './components/RandonComponent';
+import { Event } from './components/CompWithProps';
 
 
 function App() {
   
-  const buttonText = "Count :";
-  const resetText = "reset";
   return (
     <>
-      <h1>Resetear los numeros</h1>
-      <Buttonre text={buttonText} text1={resetText}/>
-      
+      <h1>Actualiza las letras</h1>
+      <Event />      
     </>
   )
 }
